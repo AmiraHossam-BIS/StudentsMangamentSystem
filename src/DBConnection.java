@@ -6,7 +6,7 @@ public class DBConnection {
 
     private static final String URL = "jdbc:postgresql://localhost:5432/school_db";
     private static final String USER = "postgres";
-    private static final String PASSWORD = "224466";
+    private static final String PASSWORD = ""YOUR_PASSWORD_HERE"";
 
     public static Connection getConnection() {
         try {
